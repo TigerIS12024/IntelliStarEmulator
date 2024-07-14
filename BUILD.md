@@ -1,4 +1,4 @@
-# OpenStar Reqirements
+# OpenStar Requiremets
 If on **macOS**, you will need to be on macOS Montery or macOS Ventrua. 
 If on **Windows**, you will need to be on Windows 8. Runing from Windows 10 will display "This App cannot be opened"
 There are some videos of how to fix it!

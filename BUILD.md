@@ -1,7 +1,6 @@
 # OpenStar Reqirements
 If on **macOS**, you will need to be on macOS Montery or macOS Ventrua. 
-If on **Windows**, you will need to be on Windows 8. Runing from Windows 10 will display this error:
-![Unknown-1](https://github.com/user-attachments/assets/af670c73-317c-43fe-9d09-02c6f5696173)
+If on **Windows**, you will need to be on Windows 8. Runing from Windows 10 will display "This App cannot be opened"
 There are some videos of how to fix it!
 If on **Linux**, you will need to be on the Latest Verion of **Linux**.
 

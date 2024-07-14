@@ -50,7 +50,7 @@ haxelib install flixel
 Run the following command to set up lime:
 ``haxelib run lime setup flixel``
 
-If lime is already set up or it is set up, install ``flixel`
+If lime is already set up or it is set up, install ``flixel``
 ```
 haxelib install flixel-tools
 haxelib run flixel-tools setup

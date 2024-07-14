@@ -40,7 +40,7 @@ If CGG is already installed on your Linux, [Install Haxe](https://haxe.org/downl
 
 # Seting up HaxeFlixel & OpenFl
 
-After you installed Haxe, we're on the following commands in your terminal:
+After you installed Haxe, run the following commands in your terminal:
 
 ```
 haxelib install lime

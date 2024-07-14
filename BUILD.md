@@ -1,4 +1,9 @@
-
+# OpenStar Reqirements
+If on **macOS**, you will need to be on macOS Montery or macOS Ventrua. 
+If on **Windows**, you will need to be on Windows 8. Runing from Windows 10 will display this error:
+![Unknown-1](https://github.com/user-attachments/assets/af670c73-317c-43fe-9d09-02c6f5696173)
+There are some videos of how to fix it!
+If on **Linux**, you will need to be on the Latest Verion of **Linux**.
 
 
 ## Building on Windows
@@ -11,7 +16,8 @@ DO NOT Go to the workflows. Go to the individual components and install the foll
 
 
 
-After thats done, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel and OpenFl](#seting-up-haxeflixel--openfl)**
+After thats done, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel and OpenFl](#seting-up-haxeflixel--openfl)**![Unknown-1](https://github.com/user-attachments/assets/ef63ef97-bb80-425b-99c7-4878c0770f4f)
+
 
 ## Building on macOS
  The build and compile of OpenStar on macOS is you need to download and install Xcode show me the App Store. if you don't want to install on the App Store, go to [The Apple Developer website](https://developer.apple.com/xcode/). 

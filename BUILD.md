@@ -19,12 +19,13 @@ After thats done, [Install Haxe](https://haxe.org/download/), then go to **[Seti
 
 ## Building on macOS
  The build and compile of OpenStar on macOS is you need to download and install Xcode show me the App Store. if you don't want to install on the App Store, go to [The Apple Developer website](https://developer.apple.com/xcode/). 
-> Here is a quick note. Depending on your Wi-Fi, This might download faster or slow. Some Xcode app files are big. Just go grab some popcorn or any type of snack until it's installed.
+> Depending on your Wi-Fi, This might download faster or slow. Some Xcode app files are big. Just go grab some popcorn or any type of snack until it's installed.
 
 If Xcode is already installed, or it is downloaded, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
 
 ## Building on Linux
 **Run the following commands before building:**
+
 If Debian: ``sudo apt install build-essential``
 
 If Arch: ``sudo pacman -Syu gcc``

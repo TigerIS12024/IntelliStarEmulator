@@ -5,7 +5,7 @@
 **API KEY IS REQIRERD TO GET WEATHER DATA.**
 
 # How to build this? 
-[Click Here](https://github.com/mewtek/OpenStar/blob/master/BUILD.md) to give you build instructions. This will redirect you to the original page. if you don't want to build it, just download the software from the releases page.
+[Click Here](https://github.com/TigerIS12024/OpenStar/blob/master/BUILD.md) to give you build instructions. This will redirect you to the original page. if you don't want to build it, just download the software from the releases page.
 
 
 

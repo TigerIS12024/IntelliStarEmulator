@@ -2,7 +2,7 @@
 
 
 ## Build on Windows
-Before you build, Intstall Visual Studio on [Visual Studio's Download Page].(https://visualstudio.microsoft.com/downloads/). 
+Before you build, Intstall Visual Studio on [Visual Studio's Download Page](https://visualstudio.microsoft.com/downloads/). 
 
 DO NOT Go to the workflows. Go to the individual components and install the following components: 
 

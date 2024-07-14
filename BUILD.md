@@ -1,61 +1,64 @@
 
 
-# Building OpenStar
-### This is for *building* OpenStar. If you're looking to just run the software, you should download the [latest release](https://github.com/mewtek/OpenStar/releases) instead
 
-### Important Note:
-In order to build for one operating system, **you need to be on that operating system.** So, to build on Windows, you need to be on Windows, same with Linux, and same with macOS. If you don't want to multi-boot, you can probably build for different operating systems using a virtual machine, but I can't personally guarantee the compile time will be too great.
+## Build on Windows
+Before you build, Intstall Visual Studio on [Visual Studio's Download Page].(https://visualstudio.microsoft.com/downloads/). 
 
-## Set up compilers on Windows
-Setting up compilers on Windows is a bit more complicated than other operating systems. In order to download the compilers, you also need to download [Visual Studio](https://visualstudio.microsoft.com/downloads/). 
+DO NOT Go to the workflows. Go to the individual components and install the following components: 
 
-When installing it, *don't click on the options to install workloads.* Instead, go to the **individual components** and install the following:
-
- - MSVC v142 - VS 2019 C++ x64/x86 build tools
- - Windows SDK (10.0.17763.0)
-
-These will install 4 GB worth of tools. After this is finished, [download & install Haxe](https://haxe.org/download/), then continue to **[Set up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
-
-## Set up compilers on macOS
-The software needed for compiling on macOS is included Apple's Xcode software. Download the latest verison of Xcode from [Apple's website.](https://developer.apple.com/xcode/) 
-> Note: Xcode is kind of big. Go like, grab a coffee or take a shower or something, this will take a while.
-
-After Xcode is installed, [download & install Haxe](https://haxe.org/download/), then continue to **[Set up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
-
-## Set up compilers on Linux
-The software for building on Linux distros (debian, arch, etc.) should be pre-installed with your system. If not, install GCC and G++ using the following commands:
-
-Debian: ``sudo apt install build-essential `` (Installs GCC, G++, and make.)
-
-Arch: ``sudo pacman -Syu gcc``
-
-centOS: ``sudo yum install gcc-c++``
-
-Fedora: ``sudo dnf groupinstall 'Development Tools'``
-
-> NOTE: You may also need to install ``g++-multilib`` and ``gcc-multilib``
-
-After you've confirmed that GCC is installed on your system, [install Haxe](https://haxe.org/download/linux/), then continue to **[Set up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
+- MSVC v142 - VS 2019 C++ x64/x86 build tools
+- Windows SDK (10.0.17763.0)
 
 
-# Set up HaxeFlixel & OpenFl
-After haxe is fully set up on your system, use ``haxelib`` to install the required libraries to your system.
+
+After thats done, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel and OpenFl](#seting-up-haxeflixel--openfl)**
+
+## Build on macOS
+ The build and compile of OpenStar on macOS is you need to download and install Xcode show me the App Store. if you don't want to install on the App Store, go to [The Apple Developer website](https://developer.apple.com/xcode/). 
+> Here is a quick note. Depending on your Wi-Fi, This might download faster or slow. some Xcode files are big. Just go grab some popcorn or any type of snack until it's installed.
+
+If Xcode is already installed, or it is downloaded, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
+
+## Build on Linux
+**Run the following commands before building:**
+If Debian: ``sudo apt install build-essential``
+
+If Arch: ``sudo pacman -Syu gcc``
+
+If centOS: ``sudo yum install gcc-c++``
+
+If Fedora: ``sudo dnf groupinstall 'Development Tools'``
+
+
+If CGG is already installed on your Linux, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel and OpenFl](#seting-up-haxeflixel--openfl)**
+
+
+# Seting up HaxeFlixel & OpenFl
+
+After you installed Haxe, we're on the following commands in your terminal:
+
 ```
 haxelib install lime
 haxelib install openfl
 haxelib install flixel
 ```
-Set up lime:
+Run the following command to set up lime:
 ``haxelib run lime setup flixel``
 
-After lime is set up, set up flixel-tools, and install the ``flixel`` command.
+If lime is already set up or it is set up, install ``flixel`
 ```
 haxelib install flixel-tools
 haxelib run flixel-tools setup
 ```
+# Going to the directory
+Run the following command to go to the directory:
+``cd C:/Users/youruser/where/OpenStar-master``
+# Building
+To build OpenStar, you need to run the following commands: 
+If you are running macOS: ``lime build mac``
+If you are running Windows: ``lime build windows``
+If you are running Linux: ``lime build linux``
 
-Use ``cd`` to change into OpenStar's directory, then use ``lime build [platform]`` to build the software. 
-Aditionally, you can use the ``--debug`` command to build a debug version of OpenStar, and use ``lime test [platform]`` to automatically run the software after compiling.
 
 
 

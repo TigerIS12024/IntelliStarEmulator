@@ -18,7 +18,7 @@ DO NOT Go to the workflows. Go to the individual components and install the foll
 After thats done, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel and OpenFl](#seting-up-haxeflixel--openfl)**
 
 ## Building on macOS
- The build and compile of OpenStar on macOS is you need to download and install Xcode show me the App Store. if you don't want to install on the App Store, go to [The Apple Developer website](https://developer.apple.com/xcode/). 
+ The build and compile of OpenStar on macOS is you need to download and install Xcode in the App Store. if you don't want to install on the App Store, go to [The Apple Developer website](https://developer.apple.com/xcode/). 
 > Depending on your Wi-Fi, This might download faster or slow. Some Xcode app files are big. Just go grab some popcorn or any type of snack until it's installed.
 
 If Xcode is already installed, or it is downloaded, [Install Haxe](https://haxe.org/download/), then go to **[Seting up HaxeFlixel & OpenFl](#set-up-haxeflixel--openfl)**
